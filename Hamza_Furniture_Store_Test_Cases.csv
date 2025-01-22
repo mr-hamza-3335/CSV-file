@@ -1,0 +1,7 @@
+Test Case ID,Feature,Steps to Reproduce,Expected Result,Actual Result,Status,Comments
+TC001,Homepage Load,Open the website link in a browser,Homepage loads within 3 seconds,Homepage loaded within 3 seconds,Passed,
+TC002,Navigation Menu,Click on 'Products' from the navigation menu,Redirects to the products page,Redirected to the products page,Passed,
+TC003,Search Functionality,Search for 'Sofa' in the search bar,Displays products related to 'Sofa',Search displayed correct results,Passed,
+TC004,Add to Cart,Select a product and click 'Add to Cart' button,Product is added to the cart,Product added to the cart successfully,Passed,
+TC005,Checkout Process,Proceed to checkout and enter dummy payment details,Displays 'Order Successful' message,Error on payment page,Failed,Payment gateway issue
+TC006,Responsive Design,Open the website on a mobile device,Website adjusts to mobile screen size,Website displayed correctly on mobile,Passed,
